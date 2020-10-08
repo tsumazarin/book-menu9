@@ -17,22 +17,7 @@ class EmployeesTableSeeder extends Seeder
         $param = [
             'name' => '葉山はやと',
             'password' => 1234,
-            'created_at' => date('Y-m-d H:i:s'),
-            'updated_at' => date('Y-m-d H:i:s'),
-        ];
-        DB::table('employees')->insert($param);
-
-        $param = [
-            'name' => '由比ヶ浜結衣',
-            'password' => 5678,
-            'created_at' => date('Y-m-d H:i:s'),
-            'updated_at' => date('Y-m-d H:i:s'),
-        ];
-        DB::table('employees')->insert($param);
-
-        $param = [
-            'name' => '一色いろは',
-            'password' => 9012,
+            'email' => 'hayato1234@gmail.com',
             'created_at' => date('Y-m-d H:i:s'),
             'updated_at' => date('Y-m-d H:i:s'),
         ];

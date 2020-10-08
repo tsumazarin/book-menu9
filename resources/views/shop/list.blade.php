@@ -6,7 +6,7 @@
     <div class="book-lists">
         @foreach ($products as $product)
             <a class="book-list" href="/shop/display?productId={{ $product->id }}">
-              <img src="{{ asset($product->image) }}" alt="{{ asset($product->image) }}">
+              <img src="{{ mix($product->image) }}" alt="{{ asset($product->image) }}">
               <br>
               <div class=" black">
                 『{{ $product->title }}』　

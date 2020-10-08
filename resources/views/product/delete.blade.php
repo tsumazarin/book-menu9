@@ -31,7 +31,7 @@
             </table>
         </div>
         <div class="right">
-            <img src="{{ asset($product->image) }}" alt="{{ asset($product->image) }}">
+            <img src="{{ mix($product->image) }}" alt="{{ asset($product->image) }}">
         </div>
     </div>
     <p>この古本を削除してよろしいでしょうか？</p>
